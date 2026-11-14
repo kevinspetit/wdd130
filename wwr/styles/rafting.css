@@ -41,6 +41,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -71,4 +72,8 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
 }
