@@ -44,11 +44,16 @@ header {
     background: #e2d6fb;
 }
 
-.logo {
+header img {
     display: block;
     max-width: 100%;
     max-height: 120px;
     object-fit: contain;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
 }
 
 header nav a {
@@ -75,10 +80,6 @@ article {
     margin: 16px;
     padding: 8px;
     color: var(--secondary-color);
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
